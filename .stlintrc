@@ -1,0 +1,17 @@
+{
+  "reporter": "raw",
+  "watch": false,
+  "extends": ["stlint-v4fire"],
+  "rules": {
+    "color": {
+      "allowOnlyInVar": false
+    },
+    "depthControl": {
+      "indentPref": 2
+    }
+  },
+  "path": "./src/assets/css",
+  "excludes": ["node_modules/"],
+  "stylusParserOptions": {},
+  "reportOptions": {}
+}
